@@ -1,0 +1,70 @@
+
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  }
+/* Adicione o seguinte código para o efeito de hover */
+.navbar-nav a {
+    position: relative;
+    text-decoration: none;
+    color: #343a40; /* cor do texto padrão */
+    transition: color 0.3s ease;
+  }
+
+  .navbar-nav a:hover::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #f18a0e; /* cor laranja */
+  }
+
+  .navbar-nav a:hover {
+    color: #f18a0e; /* cor laranja no hover */
+  }
+
+/* CSS do Footer */
+.bg-orange {
+  background-color: orangered;
+}
+
+.logomarca{
+  border-radius: 8px;
+  width: 150px;
+}
+
+.paragrafo {
+  text-align: justify;
+  text-justify: inter-word; /* Melhora a justificação em alguns navegadores */
+  margin-bottom: 1em; /* Adiciona recuo de parágrafo */
+}
+/* Adicione o seguinte código para o efeito de hover */
+
+/* Fim do CSS do Footer */
+
+
+/* Adicione estilos personalizados aqui, se necessário no Container Transmissão Online */
+.custom-container {
+  border: 1px solid #ddd; /* Cor da borda */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.logomarca{
+  border-radius: 8px;
+  width: 150px;
+}
+
+#logo{
+  width: 200px;
+  border-radius: 8px;
+}

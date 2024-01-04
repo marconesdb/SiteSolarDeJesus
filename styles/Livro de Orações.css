@@ -1,0 +1,134 @@
+
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* Adicione o seguinte código para o efeito de hover */
+.navbar-nav a {
+    position: relative;
+    text-decoration: none;
+    color: #343a40; /* cor do texto padrão */
+    transition: color 0.3s ease;
+  }
+
+  .navbar-nav a:hover::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #f18a0e; /* cor laranja */
+  }
+
+  .navbar-nav a:hover {
+    color: #f18a0e; /* cor laranja no hover */
+  }
+#logo{
+    width: 200px;
+    border-radius: 8px;
+}
+
+#container-card, #sobre{
+    margin: 20px auto;
+}
+
+footer{
+background-color: orangered;
+}
+
+
+
+.message {
+margin-bottom: 20px;
+padding: 10px;
+background-color: #f9f9f9;
+display: flex;
+align-items: flex-start;
+border: 1px solid orangered;
+}
+
+
+
+.message .photo-container {
+margin-right: 10px;
+}
+
+.message .photo-container img {
+width: 200px;
+height: auto;
+border-radius: 4px;
+}
+
+.message .content {
+flex: 1;
+}
+
+.message .author {
+font-weight: bold;
+color: #333;
+}
+
+.message .timestamp {
+font-size: 0.8em;
+color: #888;
+}
+
+.message .content p {
+margin-bottom: 0;
+}
+
+
+.navbar {
+overflow: hidden;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+
+#icon {
+display: inline-block;
+
+
+}
+
+.redes-sociais {
+display: inline-block;
+
+margin-left: 10px; /* ajuste a margem conforme necessário */
+}
+
+.redes-sociais ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.redes-sociais li {
+display: inline-block;
+margin-right: 5px; /* ajuste a margem conforme necessário */
+}
+
+.redes-sociais li a {
+color: black; /* altere a cor dos ícones conforme necessário */
+text-decoration: none;
+font-size: 18px; /* ajuste o tamanho dos ícones conforme necessário */
+}
+
+/* CSS do Footer */
+.bg-orange {
+  background-color: orangered;
+}
+
+.logomarca{
+  border-radius: 8px;
+  width: 150px;
+}
+
+.paragrafo {
+  text-align: justify;
+  text-justify: inter-word; /* Melhora a justificação em alguns navegadores */
+  margin-bottom: 1em; /* Adiciona recuo de parágrafo */
+}
+/* Adicione o seguinte código para o efeito de hover */
